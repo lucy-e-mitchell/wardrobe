@@ -1,0 +1,35 @@
+[
+  {
+    "id": "navy-shirt",
+    "name": "Navy Patterned Shirt",
+    "category": "top",
+    "colours": ["navy", "white"],
+    "formality": 6,
+    "warmth": 4,
+    "comfort": 7,
+    "pattern": "floral",
+    "tags": ["date", "smart-casual"]
+  },
+  {
+    "id": "black-trousers",
+    "name": "Black Trousers",
+    "category": "bottom",
+    "colours": ["black"],
+    "formality": 7,
+    "warmth": 5,
+    "comfort": 6,
+    "pattern": null,
+    "tags": ["formal", "smart-casual"]
+  },
+  {
+    "id": "white-trainers",
+    "name": "White Trainers",
+    "category": "shoes",
+    "colours": ["white"],
+    "formality": 4,
+    "warmth": 4,
+    "comfort": 9,
+    "pattern": null,
+    "tags": ["casual", "comfy"]
+  }
+]
