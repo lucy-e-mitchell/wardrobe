@@ -1,16 +1,15 @@
 from pydantic import BaseModel
-from typing import Literal
+from enum import Enum
 
-Category = Literal[
-    "top",
-    "bottom",
-    "trousers",
-    "skirt",
-    "shoes",
-    "outerwear",
-    "dress",
-    "accessory",
-]
+class Category(str, Enum):
+    TOP = "top"
+    BOTTOM = "bottom"
+    TROUSERS = "trousers"
+    SKIRT = "skirt"
+    SHOES = "shoes"
+    OUTERWEAR = "outerwear"
+    DRESS = "dress"
+    ACCESSORY = "accessory"
 
 class ClothingItem(BaseModel):
     id: str
