@@ -38,5 +38,5 @@ class Score(BaseModel):
 
 class Outfit(BaseModel):
     items: list[ClothingItem]
-    score: list[Score]
-    reasons: list[str]
+    score: list[Score] | None = None
+    reasons: list[str] | None = None
